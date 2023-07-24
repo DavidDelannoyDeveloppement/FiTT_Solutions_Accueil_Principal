@@ -1,0 +1,123 @@
+/*Animation Slide*/
+/*Animation Souris*/
+/*Animation opacity*/
+/*Animation opacity-douce*/
+/*Animation opacity-douce-2*/
+/*Animations au scroll*/
+/*Animation apparition par le bas*/
+/*Animations au scroll*/
+/*Animation fade-right*/
+/*Animation accueil*/
+/*Animation logo*/
+/*Animation accueil*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  max-width: 100vw;
+  min-height: 100vh;
+  background-color: #031837;
+}
+
+/*Main Container*/
+.main_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.main_container .logo {
+  display: flex;
+  align-self: flex-start;
+  margin: 2em 0 0.5em 2em;
+}
+.main_container .logo img {
+  width: 400px;
+}
+.main_container .titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: flex-end;
+  margin-right: 3em;
+}
+.main_container .titles h1 {
+  font-size: 60px;
+  color: #3fab35;
+}
+.main_container .titles p {
+  color: #fffce5;
+  font-size: 26px;
+}
+.main_container .choice-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 1em;
+}
+.main_container .choice-section .choice-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 1em 0;
+}
+.main_container .choice-section .choice-box .descriptions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: flex-start;
+  z-index: 10;
+  width: 30%;
+  background-color: #3fab35;
+  border-radius: 1em;
+  padding: 2em;
+  transition: transform 0.2s;
+}
+.main_container .choice-section .choice-box .descriptions a {
+  font-size: 40px;
+  font-weight: 900;
+  color: #031837;
+  text-decoration: none;
+}
+.main_container .choice-section .choice-box .descriptions a:hover {
+  color: #f6ab78;
+}
+.main_container .choice-section .choice-box .descriptions:hover {
+  transform: scale(1.05);
+}
+.main_container .choice-section .choice-box .support-image {
+  display: flex;
+  border-radius: 1em;
+  border: 3px solid #fffce5;
+  padding: 2em 5em;
+}
+.main_container .choice-section .choice-box .support-image img {
+  width: 300px;
+  height: 300px;
+}
+.main_container .choice-section .choice-box #left-support {
+  margin-left: -40px;
+}
+.main_container .choice-section .choice-box #right-support {
+  margin-right: -40px;
+}
+.main_container .choice-section #left-box {
+  justify-content: flex-start;
+}
+.main_container .choice-section #right-box {
+  justify-content: flex-end;
+}/*# sourceMappingURL=style.css.map */
