@@ -116,10 +116,12 @@ body {
 
         #left-box {
             justify-content: flex-start;
+            margin-left: 3em;
         }
 
         #right-box {
             justify-content: flex-end;
+            margin-right: 3em;
         }
     }
 }

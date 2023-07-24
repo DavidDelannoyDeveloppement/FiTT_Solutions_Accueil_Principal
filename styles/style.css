@@ -117,7 +117,9 @@ body {
 }
 .main_container .choice-section #left-box {
   justify-content: flex-start;
+  margin-left: 3em;
 }
 .main_container .choice-section #right-box {
   justify-content: flex-end;
+  margin-right: 3em;
 }/*# sourceMappingURL=style.css.map */
